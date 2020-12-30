@@ -24,7 +24,7 @@ summary:
 
 ## Как пишется
 
-Обработчик начала касания по элементу
+Обработчик начала касания по элементу (аналог `mousedown`)
 
 ```js
 element.addEventListener("touchstart", (event) => {
@@ -32,7 +32,7 @@ element.addEventListener("touchstart", (event) => {
 })
 ```
 
-Подписаться на событие, когда пользователь водит пальцем по элементу
+Подписаться на событие, когда пользователь водит пальцем по элементу (аналог `mousemove`)
 
 ```js
 element.addEventListener("touchmove", (event) => {
@@ -40,7 +40,7 @@ element.addEventListener("touchmove", (event) => {
 })
 ```
 
-Подписаться на событие, когда пользователь закончил прикосновение
+Подписаться на событие, когда пользователь закончил прикосновение (аналог `mouseup`)
 
 ```js
 element.addEventListener("touchend", (event) => {
